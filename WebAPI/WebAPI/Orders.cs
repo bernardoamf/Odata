@@ -4,15 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WebAPI.Model
+namespace CompanyServices.Domain
 {
     class Orders
     {
-        public int ID;
-        public int customerID;
-        public DateTime date;
-        public string status;
-        public int salesPersonID;
+        public int ID { get; set; }
+        public int customerID { get; set; }
+        public DateTime date { get; set; }
+        public string status { get; set; }
+        public int salesPersonID { get; set; }
     
     }
 }

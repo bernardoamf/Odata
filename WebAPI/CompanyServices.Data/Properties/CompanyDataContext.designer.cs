@@ -9,7 +9,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CompanyServices.Data
+namespace CompanyServices.Data.Properties
 {
 	using System.Data.Linq;
 	using System.Data.Linq.Mapping;

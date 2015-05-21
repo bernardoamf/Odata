@@ -4,15 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WebAPI.Model
+namespace CompanyServices.Domain
 {
     class Customer
     {
-        public int ID;
-        public string firstName;
-        public string lastName;
-        public string country;
-        public string companyName;
-        public bool active;
+        public int ID { get; set; }
+        public string firstName { get; set; }
+        public string lastName { get; set; }
+        public string country { get; set; }
+        public string companyName { get; set; }
+        public bool active { get; set; }
     }
 }

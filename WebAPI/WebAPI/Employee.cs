@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WebAPI.Model
+namespace CompanyServices.Domain
 {
     public class Employee
     {
-        public int id;
-        public string firstName;
-        public string lastName;
-        public string designation;
-        public DateTime startDate;
+        public int id { get; set; }
+        public string firstName { get; set; }
+        public string lastName { get; set; }
+        public string designation { get; set; }
+        public DateTime startDate { get; set; }
     }
 }
