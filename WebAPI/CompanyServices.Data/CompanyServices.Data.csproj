@@ -40,10 +40,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CompanyDataContext.designer.cs">
+    <Compile Include="CompanyServices.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>CompanyDataContext.dbml</DependentUpon>
+      <DependentUpon>CompanyServices.dbml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Settings.Designer.cs">
@@ -54,9 +54,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
-    <None Include="CompanyDataContext.dbml">
+    <None Include="CompanyServices.dbml">
       <Generator>MSLinqToSQLGenerator</Generator>
-      <LastGenOutput>CompanyDataContext.designer.cs</LastGenOutput>
+      <LastGenOutput>CompanyServices.designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
     <None Include="Properties\Settings.settings">
@@ -68,8 +68,8 @@
     <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="CompanyDataContext.dbml.layout">
-      <DependentUpon>CompanyDataContext.dbml</DependentUpon>
+    <None Include="CompanyServices.dbml.layout">
+      <DependentUpon>CompanyServices.dbml</DependentUpon>
     </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

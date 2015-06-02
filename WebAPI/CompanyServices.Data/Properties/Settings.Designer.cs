@@ -33,5 +33,28 @@ namespace CompanyServices.Data.Properties {
                 return ((string)(this["CompanyConnectionString"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=tcp:s6yf346b47.database.windows.net;Initial Catalog=Company;Persist S" +
+            "ecurity Info=True;User ID=bernardoamf;Password=w2k3oXPo2k")]
+        public string CompanyConnectionString1 {
+            get {
+                return ((string)(this["CompanyConnectionString1"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=tcp:s6yf346b47.database.windows.net,1433;Initial Catalog=Company;User" +
+            " ID=bernardoamf@s6yf346b47;Password=w2k3oXPo2k;Connect Timeout=30;Encrypt=True;T" +
+            "rustServerCertificate=False")]
+        public string CompanyConnectionString2 {
+            get {
+                return ((string)(this["CompanyConnectionString2"]));
+            }
+        }
     }
 }
